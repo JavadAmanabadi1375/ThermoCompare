@@ -54,3 +54,12 @@ Parameter sets included are taken from the published literature.
 The database is provided as a reference to ensure reproducibility.
 
 Users are encouraged to adapt the queries for their own analysis needs.
+
+The units of properties include the database are.
+Density    	kg/m³
+KT	        10¹⁰·Pa⁻¹
+Alpha	      10³·K⁻¹
+Cp	        J/(mol·K)
+Cv	        J/(mol·K)
+Speed      	m/s
+Miu	        10⁶·K/Pa
