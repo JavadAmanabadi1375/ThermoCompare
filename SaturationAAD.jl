@@ -43,10 +43,10 @@ foreach(Properties) do property
         else
             model=ReidIdeal([CompoundName])
         end
-        model1 = PCSAFT([CompoundName];idealmodel=model)
-        model2 = PCPSAFT([CompoundName];idealmodel=model)
-        model3 = SAFTVRMie([CompoundName];idealmodel=model)
-        model4 = SAFTVRMieGV([CompoundName];idealmodel=model)
+        model1 = PCSAFT([CompoundName];idealmodel=model,userlocations=(["./Model_Parameters/PCSAFT_like.csv"]))
+        model2 = PCPSAFT([CompoundName];idealmodel=model,userlocations=(["./Model_Parameters/PCPSAFT_like.csv"]))
+        model3 = SAFTVRMie([CompoundName];idealmodel=model,userlocations=(["./Model_Parameters/SAFTVRMie_like.csv"]))
+        model4 = SAFTVRMieGV([CompoundName];idealmodel=model,userlocations=(["./Model_Parameters/SAFTVRMieGV_like.csv"]))
         models = [model1,model2,model3,model4];
         n=length(models)
 

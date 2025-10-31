@@ -1,6 +1,6 @@
 using Clapeyron, SQLite, DataFrames, Statistics, XLSX, PyCall
 import PyPlot; const plt = PyPlot
-"AAD% of all derivative properties for polar compounds"
+"AAD% of all derivative properties for polar pure compounds"
 "Pure compounds parameters have been reported in the supplementary material of the paper, So please refer to it for more details. The following code is using the basic xlsx 
 data base of the Clapeyron, So in order to non existing parameters, you need to defined a user defined xlsx file and pass as a inpout of the main PC-SAFT, SAFT-VR Mie, SAFT-VR MieGV, PCP-SAFT models."
 "For more information please refer to the Clapeyron.jl user defined database website"
